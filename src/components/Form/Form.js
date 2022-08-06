@@ -19,11 +19,7 @@ const IndexPage = () => {
         fetch("/",{
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
-            // body: encode({
-            //     "form-name": e.target.getAttribute("formState"),
-            //     ...formState,
-            //   })
-            // body: encodeURI({"form-name": "contact", ...formState})
+            // body: encode({"form-name": "contact", ...formState})
         })
         .then(()=> alert("Success!"))
         .catch(error => alert(error));
