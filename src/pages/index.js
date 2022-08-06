@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
 import Form from '../components/Form';
+import Hero from '../components/Hero';
 
 const IndexPage = () => {
   return (
@@ -8,6 +9,7 @@ const IndexPage = () => {
       <main className="container text-center mt-4 ">
         <h1 className="">Congratulations</h1>
         <Form/>
+        <Hero/>
       </main>
     </Layout>
     
