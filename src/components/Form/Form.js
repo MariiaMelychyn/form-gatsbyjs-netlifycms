@@ -29,7 +29,7 @@ const IndexPage = () => {
    
       
          return (
-         <form onSubmit={handleSubmit} name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+         <form onSubmit={handleSubmit} name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
            <input type="hidden" name="form-name" value="contact"/>
            <input 
            id="name" 
