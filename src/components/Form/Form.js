@@ -1,6 +1,17 @@
 import React, {useState} from 'react'
+//ТЕЛЕГРАМ JS
+//https://api.telegram.org/bot5479935089:AAH9h44YFDqEz0tZSUhnuyKzIuXrFv25j68/getUpdates
+//https://api.telegram.org/bot5479935089:AAH9h44YFDqEz0tZSUhnuyKzIuXrFv25j68/sendMessage?chat_id=-792663712&text=hi_i_am_a_bot
 
 
+// document.querySelector('button').onc = function (){
+//     let message = document.querySelector('.message').value;
+//     const token = '5479935089:AAH9h44YFDqEz0tZSUhnuyKzIuXrFv25j68';
+//     let url = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=-792663712&text='    ;
+//     let xhttp = new XMLHttpRequest();
+//     xhttp.open("GET", url + message, true);
+//     xhttp.send();
+// }
 const IndexPage = () => {
     const [formState, setFormState] = useState({
         name: "",
