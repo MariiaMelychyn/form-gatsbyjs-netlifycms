@@ -5,6 +5,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    `gatsby-transformer-remark`,
     'gatsby-plugin-netlify-cms',
     `gatsby-plugin-sharp`,
 
