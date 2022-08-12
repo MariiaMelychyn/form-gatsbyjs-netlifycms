@@ -5,6 +5,16 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-237309736-1",
+        head: true,
+        anonymize: true,
+      },
+    }
+    ],
+  plugins: [
     `gatsby-transformer-remark`,
     'gatsby-plugin-netlify-cms',
     `gatsby-plugin-sharp`,
